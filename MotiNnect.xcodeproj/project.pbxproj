@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42843671F7DD432C6C78CA1A /* Pods_MotiNnect_MotiNnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73B5D208FB4C02576B3A01C /* Pods_MotiNnect_MotiNnectUITests.framework */; };
+		5D2559133E8AFA23C9536D1A /* Pods_MotiNnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA94FE45F5266C32430394 /* Pods_MotiNnect.framework */; };
+		634442D855B3ED0F083CA46E /* Pods_MotiNnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20223D2F8290F4D271DC0B56 /* Pods_MotiNnectTests.framework */; };
 		EEE4EC1225A4A61300E1E867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4EC1125A4A61300E1E867 /* AppDelegate.swift */; };
 		EEE4EC1425A4A61300E1E867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4EC1325A4A61300E1E867 /* SceneDelegate.swift */; };
 		EEE4EC1625A4A61300E1E867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4EC1525A4A61300E1E867 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		EEE4EC1E25A4A61400E1E867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4EC1C25A4A61400E1E867 /* LaunchScreen.storyboard */; };
 		EEE4EC2925A4A61400E1E867 /* MotiNnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4EC2825A4A61400E1E867 /* MotiNnectTests.swift */; };
 		EEE4EC3425A4A61400E1E867 /* MotiNnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4EC3325A4A61400E1E867 /* MotiNnectUITests.swift */; };
+		EEE6A45125B04EDC00D78C70 /* Motinnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6A45025B04EDC00D78C70 /* Motinnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0100D5186CB80538E504F9FD /* Pods-MotiNnect-MotiNnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnect-MotiNnectUITests.debug.xcconfig"; path = "Target Support Files/Pods-MotiNnect-MotiNnectUITests/Pods-MotiNnect-MotiNnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20223D2F8290F4D271DC0B56 /* Pods_MotiNnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotiNnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AA94FE45F5266C32430394 /* Pods_MotiNnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotiNnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9E5F1FE578571986E7F0A2 /* Pods-MotiNnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnect.release.xcconfig"; path = "Target Support Files/Pods-MotiNnect/Pods-MotiNnect.release.xcconfig"; sourceTree = "<group>"; };
+		5E4A192C9DEB68B4449C1736 /* Pods-MotiNnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnect.debug.xcconfig"; path = "Target Support Files/Pods-MotiNnect/Pods-MotiNnect.debug.xcconfig"; sourceTree = "<group>"; };
+		A7148EC895A494E04D5B53DB /* Pods-MotiNnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnectTests.release.xcconfig"; path = "Target Support Files/Pods-MotiNnectTests/Pods-MotiNnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3ED6E1DFC978C2D28A39665 /* Pods-MotiNnect-MotiNnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnect-MotiNnectUITests.release.xcconfig"; path = "Target Support Files/Pods-MotiNnect-MotiNnectUITests/Pods-MotiNnect-MotiNnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD9B143163CCB8D1877411B2 /* Pods-MotiNnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiNnectTests.debug.xcconfig"; path = "Target Support Files/Pods-MotiNnectTests/Pods-MotiNnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E73B5D208FB4C02576B3A01C /* Pods_MotiNnect_MotiNnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotiNnect_MotiNnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4EC0E25A4A61300E1E867 /* MotiNnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotiNnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4EC1125A4A61300E1E867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE4EC1325A4A61300E1E867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		EEE4EC2F25A4A61400E1E867 /* MotiNnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotiNnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4EC3325A4A61400E1E867 /* MotiNnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiNnectUITests.swift; sourceTree = "<group>"; };
 		EEE4EC3525A4A61400E1E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE6A45025B04EDC00D78C70 /* Motinnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motinnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2559133E8AFA23C9536D1A /* Pods_MotiNnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634442D855B3ED0F083CA46E /* Pods_MotiNnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42843671F7DD432C6C78CA1A /* Pods_MotiNnect_MotiNnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B91D16A55FE313E8FAC553A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53AA94FE45F5266C32430394 /* Pods_MotiNnect.framework */,
+				E73B5D208FB4C02576B3A01C /* Pods_MotiNnect_MotiNnectUITests.framework */,
+				20223D2F8290F4D271DC0B56 /* Pods_MotiNnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F5F2CC1677CD276C9E11A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A192C9DEB68B4449C1736 /* Pods-MotiNnect.debug.xcconfig */,
+				5D9E5F1FE578571986E7F0A2 /* Pods-MotiNnect.release.xcconfig */,
+				0100D5186CB80538E504F9FD /* Pods-MotiNnect-MotiNnectUITests.debug.xcconfig */,
+				C3ED6E1DFC978C2D28A39665 /* Pods-MotiNnect-MotiNnectUITests.release.xcconfig */,
+				CD9B143163CCB8D1877411B2 /* Pods-MotiNnectTests.debug.xcconfig */,
+				A7148EC895A494E04D5B53DB /* Pods-MotiNnectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EEE4EC0525A4A61300E1E867 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				EEE4EC2725A4A61400E1E867 /* MotiNnectTests */,
 				EEE4EC3225A4A61400E1E867 /* MotiNnectUITests */,
 				EEE4EC0F25A4A61300E1E867 /* Products */,
+				69F5F2CC1677CD276C9E11A0 /* Pods */,
+				1B91D16A55FE313E8FAC553A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +144,7 @@
 				EEE4EC1125A4A61300E1E867 /* AppDelegate.swift */,
 				EEE4EC1325A4A61300E1E867 /* SceneDelegate.swift */,
 				EEE4EC1525A4A61300E1E867 /* ViewController.swift */,
+				EEE6A45025B04EDC00D78C70 /* Motinnect.swift */,
 				EEE4EC1725A4A61300E1E867 /* Main.storyboard */,
 				EEE4EC1A25A4A61400E1E867 /* Assets.xcassets */,
 				EEE4EC1C25A4A61400E1E867 /* LaunchScreen.storyboard */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE4EC3825A4A61400E1E867 /* Build configuration list for PBXNativeTarget "MotiNnect" */;
 			buildPhases = (
+				E4885B48552B3DA3250087B5 /* [CP] Check Pods Manifest.lock */,
 				EEE4EC0A25A4A61300E1E867 /* Sources */,
 				EEE4EC0B25A4A61300E1E867 /* Frameworks */,
 				EEE4EC0C25A4A61300E1E867 /* Resources */,
+				B9BC0D3AEFAD67F5BE542284 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE4EC3B25A4A61400E1E867 /* Build configuration list for PBXNativeTarget "MotiNnectTests" */;
 			buildPhases = (
+				531AFFE3564E55E4986AD773 /* [CP] Check Pods Manifest.lock */,
 				EEE4EC2025A4A61400E1E867 /* Sources */,
 				EEE4EC2125A4A61400E1E867 /* Frameworks */,
 				EEE4EC2225A4A61400E1E867 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE4EC3E25A4A61400E1E867 /* Build configuration list for PBXNativeTarget "MotiNnectUITests" */;
 			buildPhases = (
+				1C95C2A88AF90DE4ECA54D5F /* [CP] Check Pods Manifest.lock */,
 				EEE4EC2B25A4A61400E1E867 /* Sources */,
 				EEE4EC2C25A4A61400E1E867 /* Frameworks */,
 				EEE4EC2D25A4A61400E1E867 /* Resources */,
+				ED7506C704543032C1B766A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C95C2A88AF90DE4ECA54D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotiNnect-MotiNnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		531AFFE3564E55E4986AD773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotiNnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BC0D3AEFAD67F5BE542284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotiNnect/Pods-MotiNnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotiNnect/Pods-MotiNnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotiNnect/Pods-MotiNnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4885B48552B3DA3250087B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotiNnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7506C704543032C1B766A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotiNnect-MotiNnectUITests/Pods-MotiNnect-MotiNnectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotiNnect-MotiNnectUITests/Pods-MotiNnect-MotiNnectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotiNnect-MotiNnectUITests/Pods-MotiNnect-MotiNnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEE4EC0A25A4A61300E1E867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 				EEE4EC1625A4A61300E1E867 /* ViewController.swift in Sources */,
 				EEE4EC1225A4A61300E1E867 /* AppDelegate.swift in Sources */,
 				EEE4EC1425A4A61300E1E867 /* SceneDelegate.swift in Sources */,
+				EEE6A45125B04EDC00D78C70 /* Motinnect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +585,7 @@
 		};
 		EEE4EC3925A4A61400E1E867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E4A192C9DEB68B4449C1736 /* Pods-MotiNnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		EEE4EC3A25A4A61400E1E867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9E5F1FE578571986E7F0A2 /* Pods-MotiNnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +623,7 @@
 		};
 		EEE4EC3C25A4A61400E1E867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9B143163CCB8D1877411B2 /* Pods-MotiNnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +645,7 @@
 		};
 		EEE4EC3D25A4A61400E1E867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7148EC895A494E04D5B53DB /* Pods-MotiNnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +667,7 @@
 		};
 		EEE4EC3F25A4A61400E1E867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0100D5186CB80538E504F9FD /* Pods-MotiNnect-MotiNnectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +687,7 @@
 		};
 		EEE4EC4025A4A61400E1E867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ED6E1DFC978C2D28A39665 /* Pods-MotiNnect-MotiNnectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
